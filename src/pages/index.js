@@ -11,32 +11,31 @@ const IndexPage = () => (
     <div style={{}}>
       <div
         style={{
-          fontFamily: "Poppins",
           marginTop: "32vh",
           marginBottom: "32vh",
           position: "relative",
         }}
       >
         <h1>
-          Hey I am <font color={"rebeccapurple"}>Vishal Pratap Singh</font>,
+          Hey, I am <font color={"rebeccapurple"}>Vishal Pratap Singh </font>!
         </h1>
         <h2>
           <span role="img" aria-label="thunder">
             ⚡️
           </span>{" "}
-          Web Developer
+          web developer
         </h2>
         <h2>
           <span role="img" aria-label="mechanical arm">
             🦾
           </span>{" "}
-          Problem Solver
+          problem solver
         </h2>
         <h2>
           <span role="img" aria-label="boy on a laptop">
             👨🏻‍💻
           </span>{" "}
-          Competitive Coder
+          competitive coder
         </h2>
       </div>
     </div>

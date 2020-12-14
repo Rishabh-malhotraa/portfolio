@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Portfolio`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Portfolio website of Vishal Pratap Singh (@chaos)! Hey, I am budding developer, problem solver and competitive coding, check out my website to know more about me. We maybe a perfect match `,
+    author: `@chaos`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,15 +25,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Poppins`,
-            variants: [`400`, `700`],
-          },
-        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
