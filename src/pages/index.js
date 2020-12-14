@@ -8,14 +8,23 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{}}>
+      <div
+        style={{
+          fontFamily: "Poppins",
+          marginTop: "32vh",
+          marginBottom: "32vh",
+          position: "relative",
+        }}
+      >
+        <h1>
+          Hey I am <font color={"rebeccapurple"}>Vishal Pratap Singh</font>,
+        </h1>
+        <h2>⚡️ Web Developer</h2>
+        <h2>🦾 Problem Solver</h2>
+        <h2>👨🏻‍💻 Competitive Coder</h2>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
