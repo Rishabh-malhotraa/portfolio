@@ -37,8 +37,8 @@ export default class Fountain {
       move,
       e => {
         try {
-          this.mouseX = e.pageX || e.touches[0].pageX
-          this.mouseY = e.pageY || e.touches[0].pageY
+          this.mouseX = e.clientX || e.touches[0].clientX
+          this.mouseY = e.clientY || e.touches[0].clientY
         } catch (exp) {
           this.mouseX = 0
           this.mouseY = 0
@@ -48,8 +48,8 @@ export default class Fountain {
     )
 
     document.addEventListener(tap, e => {
-      this.mouseX = e.pageX || e.touches[0].pageX
-      this.mouseY = e.pageY || e.touches[0].pageY
+      this.mouseX = e.clientX || e.touches[0].clientY
+      this.mouseY = e.clientX || e.touches[0].clientY
       this.autoAddParticle = true
     })
 

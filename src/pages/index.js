@@ -26,16 +26,16 @@ const IndexPage = () => {
     }, 3000)
     /* eslint-enable */
 
-    new Fountain();
+    new Fountain()
   })
 
   return (
-    <Layout>
+    <div>
       <div
         id="content"
         style={{
           overflow: "hidden",
-          position: "absolute",
+          position: "fixed",
           zIndex: "-1",
           height: "100vh",
           width: "100vw",
@@ -44,51 +44,54 @@ const IndexPage = () => {
           userSelect: "none",
         }}
       ></div>
-      <SEO title="Welcome to my " />
-      <div style={{}}>
-        <div
-          style={{
-            height: "100vh",
-            position: "relative",
-          }}
-        >
+      <Layout>
+        <SEO title="Welcome to my " />
+        <div style={{}}>
           <div
             style={{
-              marginTop: "34%",
-              fontSize: "2.2em",
-              fontWeight: "600",
-              lineHeight: "1.35em",
+              height: "100vh",
+              position: "relative",
             }}
           >
-            Hey, I am <font color={"rebeccapurple"}>Vishal Pratap Singh </font>{" "}
-            <span className={"wave"}>👋</span>
-            <br />I build things for the web !
+            <div
+              style={{
+                marginTop: "34%",
+                fontSize: "2.2em",
+                fontWeight: "600",
+                lineHeight: "1.35em",
+              }}
+            >
+              Hey, I am{" "}
+              <font color={"rebeccapurple"}>Vishal Pratap Singh </font>{" "}
+              <span className={"wave"}>👋</span>
+              <br />I build things for the web !
+            </div>
           </div>
-        </div>
-        <div
-          style={{
-            height: "100vh",
-            position: "relative",
-          }}
-        >
           <div
             style={{
-              fontSize: "2.2em",
-              fontWeight: "600",
-              lineHeight: "1.35em",
+              height: "100vh",
+              position: "relative",
             }}
           >
-            I have added to:
-            <ul>
-              <li>Ethereum</li>
-              <li>Deno</li>
-              <li>CGAL</li>
-              <li>Gatsby</li>
-            </ul>
+            <div
+              style={{
+                fontSize: "2.2em",
+                fontWeight: "600",
+                lineHeight: "1.35em",
+              }}
+            >
+              I have added to:
+              <ul>
+                <li>Ethereum</li>
+                <li>Deno</li>
+                <li>CGAL</li>
+                <li>Gatsby</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </Layout>
+      </Layout>
+    </div>
   )
 }
 
