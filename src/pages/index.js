@@ -6,9 +6,21 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 
+/* eslint-disable */
+var i=0;
+setInterval(function(){
+    var titles=['hi there, visitor! 🎉', 'bonjour! 🛸 space cowboy', 'apko namaste 🙏', "yōkoso tomodachi 🎏", "Vāruṅkaḷ naṇparē 🎊"];
+    if(i===titles.length) {
+        i=0;
+    }
+    document.title = titles[i];
+    i++;
+}, 3000);
+/* eslint-enable */
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Welcome to my " />
     <div style={{}}>
       <div
         style={{
