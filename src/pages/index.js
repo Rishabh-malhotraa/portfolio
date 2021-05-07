@@ -4,6 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
+import "./index.css"
 
 const IndexPage = () => (
   <Layout>
@@ -11,32 +12,44 @@ const IndexPage = () => (
     <div style={{}}>
       <div
         style={{
-          marginTop: "32vh",
-          marginBottom: "32vh",
+          height: "100vh",
           position: "relative",
         }}
       >
-        <h1>
-          Hey, I am <font color={"rebeccapurple"}>Vishal Pratap Singh </font>!
-        </h1>
-        <h2>
-          <span role="img" aria-label="thunder">
-            ⚡️
-          </span>{" "}
-          web developer
-        </h2>
-        <h2>
-          <span role="img" aria-label="mechanical arm">
-            🦾
-          </span>{" "}
-          problem solver
-        </h2>
-        <h2>
-          <span role="img" aria-label="boy on a laptop">
-            👨🏻‍💻
-          </span>{" "}
-          competitive coder
-        </h2>
+        <div
+          style={{
+            marginTop: "34%",
+            fontSize: "2.2em",
+            fontWeight: "600",
+            lineHeight: "1.35em",
+          }}
+        >
+          Hey, I am <font color={"rebeccapurple"}>Vishal Pratap Singh </font>{" "}
+          <span className={"wave"}>👋</span>
+          <br />I build things for the web !
+        </div>
+      </div>
+      <div
+        style={{
+          height: "100vh",
+          position: "relative",
+        }}
+      >
+        <div
+          style={{
+            fontSize: "2.2em",
+            fontWeight: "600",
+            lineHeight: "1.35em",
+          }}
+        >
+          I have added to:
+          <ul>
+            <li>Ethereum</li>
+            <li>Deno</li>
+            <li>CGAL</li>
+            <li>Gatsby</li>
+          </ul>
+        </div>
       </div>
     </div>
   </Layout>
