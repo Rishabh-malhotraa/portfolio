@@ -1,0 +1,44 @@
+@keyframes colorchange {
+  0% {
+    color: rebeccapurple;
+  }
+
+  10% {
+    color: rgb(255, 86, 184);
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: rgb(8, 255, 202);
+  }
+
+  50% {
+    color: #ffc240;
+  }
+
+  60% {
+    color: rgb(255, 128, 70);
+  }
+
+  70% {
+    color: #33a0e9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #3b84f1;
+  }
+
+  100% {
+    color: pink;
+  }
+}

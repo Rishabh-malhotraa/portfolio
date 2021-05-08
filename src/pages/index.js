@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import "./index.css"
+import Terminal from "./../components/Terminal/Terminal.jsx"
 
 const IndexPage = () => {
   useEffect(() => {
@@ -49,31 +50,37 @@ const IndexPage = () => {
         <div style={{}}>
           <div
             style={{
-              height: "100vh",
+              height: "60vh",
               position: "relative",
+              zIndex: "1",
             }}
           >
             <div
               style={{
-                marginTop: "32%",
+                marginTop: "34%",
                 fontSize: "2.2em",
                 fontWeight: "600",
                 lineHeight: "1.35em",
               }}
             >
               Hey, I am{" "}
-              <font color={"rebeccapurple"} className={"myname"}>Vishal Pratap Singh </font>{" "}
+              <font color={"rebeccapurple"} className={"myname"}>
+                Vishal Pratap Singh{" "}
+              </font>{" "}
               <span className={"wave"}>👋</span>
               <br />I build things for the web !
             </div>
           </div>
           <div
             style={{
-              height: "100vh",
+              // height: "100vh",
+              marginBottom: "30vh",
               position: "relative",
+              overflow:"scroll"
             }}
           >
             {/* add things here */}
+            <Terminal style={{ scrollSnapStop:"always" }} />
           </div>
         </div>
       </Layout>
