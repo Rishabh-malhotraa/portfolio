@@ -30,7 +30,7 @@ const IndexPage = () => {
   })
 
   return (
-    <div>
+    <div className={"custom-cursor"}>
       <div
         id="content"
         style={{
@@ -55,14 +55,14 @@ const IndexPage = () => {
           >
             <div
               style={{
-                marginTop: "34%",
+                marginTop: "32%",
                 fontSize: "2.2em",
                 fontWeight: "600",
                 lineHeight: "1.35em",
               }}
             >
               Hey, I am{" "}
-              <font color={"rebeccapurple"}>Vishal Pratap Singh </font>{" "}
+              <font color={"rebeccapurple"} className={"myname"}>Vishal Pratap Singh </font>{" "}
               <span className={"wave"}>👋</span>
               <br />I build things for the web !
             </div>
@@ -73,21 +73,7 @@ const IndexPage = () => {
               position: "relative",
             }}
           >
-            <div
-              style={{
-                fontSize: "2.2em",
-                fontWeight: "600",
-                lineHeight: "1.35em",
-              }}
-            >
-              I have added to:
-              <ul>
-                <li>Ethereum</li>
-                <li>Deno</li>
-                <li>CGAL</li>
-                <li>Gatsby</li>
-              </ul>
-            </div>
+            {/* add things here */}
           </div>
         </div>
       </Layout>

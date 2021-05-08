@@ -1,23 +1,164 @@
 ::selection {
-  background:#c5fcfc;
+  background: #c5fcfc;
   /* color: #ff0000; */
 }
 
+.custom-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>👆🏾</text></svg>")
+      16 0,
+    auto;
+}
+
+.myname:hover {
+  -webkit-animation: colorchange 5s infinite alternate,
+    cursorshuffle 2s infinite alternate;
+  animation: colorchange 5s infinite alternate,
+    cursorshuffle 2s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    color: rebeccapurple;
+  }
+
+  10% {
+    color: rgb(255, 86, 184);
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: rgb(8, 255, 202);
+  }
+
+  50% {
+    color: #ffc240;
+  }
+
+  60% {
+    color: rgb(255, 128, 70);
+  }
+
+  70% {
+    color: #33a0e9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #3b84f1;
+  }
+
+  100% {
+    color: pink;
+  }
+}
+
+@keyframes cursorshuffle {
+  0% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🦄</text></svg>")
+        16 0,
+      auto;
+  }
+
+  10% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🔥</text></svg>")
+        16 0,
+      auto;
+  }
+
+  20% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🎒</text></svg>")
+        16 0,
+      auto;
+  }
+
+  30% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>👑</text></svg>")
+        16 0,
+      auto;
+  }
+
+  40% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🐣</text></svg>")
+        16 0,
+      auto;
+  }
+
+  50% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>⭐️</text></svg>")
+        16 0,
+      auto;
+  }
+
+  60% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🌩</text></svg>")
+        16 0,
+      auto;
+  }
+
+  70% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🐶</text></svg>")
+        16 0,
+      auto;
+  }
+  80% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🎊</text></svg>")
+        16 0,
+      auto;
+  }
+
+  90% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🎂</text></svg>")
+        16 0,
+      auto;
+  }
+
+  100% {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='44' height='53' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🎊</text></svg>")
+        16 0,
+      auto;
+  }
+}
+
 .wave {
-   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-   animation-duration: 2.5s;        /* Change to speed up or slow down */
-   animation-iteration-count: infinite;  /* Never stop waving :) */
-   transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-   display: inline-block;
- }
- 
- @keyframes wave-animation {
-     0% { transform: rotate( 0.0deg) }
-    10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-    20% { transform: rotate(-8.0deg) }
-    30% { transform: rotate(14.0deg) }
-    40% { transform: rotate(-4.0deg) }
-    50% { transform: rotate(10.0deg) }
-    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-   100% { transform: rotate( 0.0deg) }
- }
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
