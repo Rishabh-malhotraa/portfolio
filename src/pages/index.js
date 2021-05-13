@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 import Terminal from "./../components/Terminal/Terminal.jsx"
+import Projects from "./../components/Projects/Projects.jsx"
+import OpenSource from "./../components/OpenSource/OpenSource.jsx"
 
 const IndexPage = () => {
   useEffect(() => {
@@ -76,11 +78,12 @@ const IndexPage = () => {
               // height: "100vh",
               marginBottom: "30vh",
               position: "relative",
-              overflow:"scroll"
             }}
           >
             {/* add things here */}
             <Terminal style={{ scrollSnapStop:"always" }} />
+          <Projects/>
+          <OpenSource/>
           </div>
         </div>
       </Layout>
