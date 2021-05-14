@@ -8,6 +8,8 @@ import "./index.css"
 import Terminal from "./../components/Terminal/Terminal.jsx"
 import Projects from "./../components/Projects/Projects.jsx"
 import OpenSource from "./../components/OpenSource/OpenSource.jsx"
+import Achievements from "./../components/Achievements/Achievements.jsx"
+import MoreAbout from "./../components/MoreAbout/MoreAbout.jsx"
 
 const IndexPage = () => {
   useEffect(() => {
@@ -81,9 +83,11 @@ const IndexPage = () => {
             }}
           >
             {/* add things here */}
-            <Terminal style={{ scrollSnapStop:"always" }} />
-          <Projects/>
-          <OpenSource/>
+            <Terminal style={{ scrollSnapStop: "always" }} />
+            <Projects />
+            <OpenSource />
+            <Achievements />
+            <MoreAbout />
           </div>
         </div>
       </Layout>

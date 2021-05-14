@@ -11,7 +11,7 @@ export default function Projects() {
       <div
         style={{
           display: "flex",
-          marginTop: "20vh",
+          marginTop: "18vh",
           justifyContent: "space-between",
           minHeight:"25vh"
         }}
