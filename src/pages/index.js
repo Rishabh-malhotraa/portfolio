@@ -8,6 +8,7 @@ import "./index.css"
 import Terminal from "./../components/Terminal/Terminal.jsx"
 import Projects from "./../components/Projects/Projects.jsx"
 import OpenSource from "./../components/OpenSource/OpenSource.jsx"
+import Skills from "./../components/Skills/Skills.jsx"
 import Achievements from "./../components/Achievements/Achievements.jsx"
 import MoreAbout from "./../components/MoreAbout/MoreAbout.jsx"
 
@@ -86,6 +87,7 @@ const IndexPage = () => {
             <Terminal style={{ scrollSnapStop: "always" }} />
             <Projects />
             <OpenSource />
+            <Skills />
             <Achievements />
             <MoreAbout />
           </div>
