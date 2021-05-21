@@ -1,0 +1,15 @@
+.neu-achievements {
+  border-radius: 1.9em;
+  background: #ffffff;
+  box-shadow: 1.3em 1.3em 3.1em #cccccc, -1.3em -1.3em 3.1em #ffffff;
+  padding: 2em;
+  text-align: center;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.neu-achievements:hover {
+  border-radius: 1.9em;
+  background: #ffffff;
+  box-shadow: inset 1.3em 1.3em 3.1em #cccccc, inset -1.3em -1.3em 3.1em #ffffff;
+}
