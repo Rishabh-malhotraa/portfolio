@@ -5,7 +5,9 @@ export default function Projects() {
   return (
     <div className={"projects"}>
       <div style={{ fontSize: "3.5em", marginTop: "30vh" }}>
-        <b>Projects <span alt={"celebration emoji"} >🎊</span></b>
+        <b>
+          Projects <span alt={"celebration emoji"}>🎊</span>
+        </b>
       </div>
 
       <div
@@ -13,10 +15,12 @@ export default function Projects() {
           display: "flex",
           marginTop: "18vh",
           justifyContent: "space-between",
-          minHeight:"25vh"
+          minHeight: "25vh",
         }}
       >
-        <div
+        <a
+          href={"https://github.com/Dank-Devs/Dank-Devs"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -27,8 +31,10 @@ export default function Projects() {
           }}
         >
           <b>Dank Devs</b>
-        </div>
-        <div
+        </a>
+        <a
+          href={"https://github.com/Vishal19111999/Chef-s-Arena"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -37,18 +43,20 @@ export default function Projects() {
             padding: "3em",
           }}
         >
-          <b>Chef's Camp</b>
-        </div>
+          <b>Chef's Arena</b>
+        </a>
       </div>
       <div
         style={{
           display: "flex",
           marginTop: "3em",
           justifyContent: "space-between",
-          minHeight:"25vh"
+          minHeight: "25vh",
         }}
       >
-        <div
+        <a
+          href={"https://github.com/Vishal19111999/captchaAlternative"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -59,9 +67,11 @@ export default function Projects() {
           }}
         >
           <b>Captcha Alternative</b>
-        </div>
+        </a>
 
-        <div
+        <a
+          href={"http://iiitranchi.ac.in/"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -71,7 +81,7 @@ export default function Projects() {
           }}
         >
           <b>IIIT Ranchi Website</b>
-        </div>
+        </a>
       </div>
     </div>
   )

@@ -11,3 +11,7 @@
   background: #ffffff;
   box-shadow: inset 1.3em 1.3em 3.1em  #cccccc, inset -1.3em -1.3em 3.1em #ffffff;
 }
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}

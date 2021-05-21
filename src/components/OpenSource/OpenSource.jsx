@@ -5,7 +5,9 @@ export default function OpenSource() {
   return (
     <div>
       <div style={{ fontSize: "3.5em", marginTop: "30vh" }}>
-        <b>Open Source <span alt={"heart emoji"} >❤️</span></b>
+        <b>
+          Open Source <span alt={"heart emoji"}>❤️</span>
+        </b>
       </div>
 
       <div
@@ -13,10 +15,12 @@ export default function OpenSource() {
           display: "flex",
           marginTop: "18vh",
           justifyContent: "space-between",
-          minHeight:"25vh"
+          minHeight: "25vh",
         }}
       >
-        <div
+        <a
+          href={"https://ethereum.org/en/"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -27,8 +31,10 @@ export default function OpenSource() {
           }}
         >
           <b>Ethereum.org</b>
-        </div>
-        <div
+        </a>
+        <a
+          href={"https://www.gatsbyjs.com/"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -38,17 +44,19 @@ export default function OpenSource() {
           }}
         >
           <b>Gatsby</b>
-        </div>
+        </a>
       </div>
       <div
         style={{
           display: "flex",
           marginTop: "3em",
           justifyContent: "space-between",
-          minHeight:"25vh"
+          minHeight: "25vh",
         }}
       >
-        <div
+        <a
+          href={"https://www.cgal.org/"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -59,9 +67,11 @@ export default function OpenSource() {
           }}
         >
           <b>CGAL</b>
-        </div>
+        </a>
 
-        <div
+        <a
+          href={"https://deno.land/"}
+          target={"_blank"}
           className={"neu"}
           style={{
             fontSize: "1.3em",
@@ -71,7 +81,7 @@ export default function OpenSource() {
           }}
         >
           <b>Deno</b>
-        </div>
+        </a>
       </div>
     </div>
   )
