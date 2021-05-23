@@ -14,6 +14,7 @@ export default function OpenSource() {
         style={{
           display: "flex",
           marginTop: "18vh",
+          flexWrap: "wrap",
           justifyContent: "space-between",
           minHeight: "25vh",
         }}
@@ -24,8 +25,8 @@ export default function OpenSource() {
           className={"neu"}
           style={{
             fontSize: "1.3em",
-            minWidth: "20vw",
-            marginRight: "1em",
+            flexGrow: "1",
+            marginRight: "2em",
             textAlign: "center",
             padding: "3em",
           }}
@@ -38,7 +39,7 @@ export default function OpenSource() {
           className={"neu"}
           style={{
             fontSize: "1.3em",
-            minWidth: "40vw",
+            flexGrow: "6",
             textAlign: "center",
             padding: "3em",
           }}
@@ -49,6 +50,7 @@ export default function OpenSource() {
       <div
         style={{
           display: "flex",
+          flexWrap: "wrap",
           marginTop: "3em",
           justifyContent: "space-between",
           minHeight: "25vh",
@@ -60,7 +62,7 @@ export default function OpenSource() {
           className={"neu"}
           style={{
             fontSize: "1.3em",
-            minWidth: "40vw",
+            flexGrow: "5",
             textAlign: "center",
             padding: "3em",
             marginRight: "2em",
@@ -75,7 +77,7 @@ export default function OpenSource() {
           className={"neu"}
           style={{
             fontSize: "1.3em",
-            minWidth: "20vw",
+            flexGrow: "1",
             textAlign: "center",
             padding: "3em",
           }}
