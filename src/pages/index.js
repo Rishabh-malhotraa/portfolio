@@ -37,6 +37,9 @@ const IndexPage = () => {
 
   return (
     <div className={"custom-cursor"}>
+      <div className={"overlay"}>
+        Please open this website on your desktop <span alt={"embarrased emoji"}>😅</span>
+      </div>
       <div
         id="content"
         style={{
