@@ -1,8 +1,6 @@
 import React, { useEffect } from "react"
-// import { Link } from "gatsby"
 import Fountain from "../utils/fountain"
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 import "./index.css"
 import Terminal from "./../components/Terminal/Terminal.jsx"
@@ -38,7 +36,7 @@ const IndexPage = () => {
   return (
     <div className={"custom-cursor"}>
       <div className={"overlay"}>
-        Please open this website on your desktop <span alt={"embarrased emoji"}>😅</span>
+        Please open this website on your desktop <span alt={"embarrased emoji"} role="img" aria-label="embarrased emoji">😅</span>
       </div>
       <div
         id="content"
@@ -75,7 +73,7 @@ const IndexPage = () => {
               <font color={"rebeccapurple"} className={"myname"}>
                 Vishal Pratap Singh{" "}
               </font>{" "}
-              <span className={"wave"}>👋</span>
+              <span className={"wave"} role="img"  aria-label="wave emoji">👋</span>
               <br />I build things for the web !
             </div>
           </div>

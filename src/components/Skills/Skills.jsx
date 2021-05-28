@@ -1,5 +1,5 @@
 import React from "react"
-import { Bar, Line, Pie, Scatter, Bubble, Doughnut } from "react-chartjs-2"
+import { Bar, Line} from "react-chartjs-2"
 import "./Skills.css"
 
 export default function Skills() {

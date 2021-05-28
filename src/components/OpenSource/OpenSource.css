@@ -1,12 +1,12 @@
 .opensource{
    scroll-snap-stop: always;
 }
-.neu {
+.neu2 {
   border-radius: 1.9em;
   background: #ffffff;
   box-shadow: 1.3em 1.3em 3.1em #cccccc, -1.3em -1.3em 3.1em #ffffff;
 }
-.neu:hover {
+.neu2:hover {
   border-radius: 1.9em;
   background: #ffffff;
   box-shadow: inset 1.3em 1.3em 3.1em  #cccccc, inset -1.3em -1.3em 3.1em #ffffff;

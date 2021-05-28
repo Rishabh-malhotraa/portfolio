@@ -22,7 +22,7 @@ export default function OpenSource() {
         <a
           href={"https://ethereum.org/en/"}
           target={"_blank"}
-          className={"neu"}
+          className={"neu2"}
           style={{
             fontSize: "1.3em",
             flexGrow: "1",
@@ -36,7 +36,7 @@ export default function OpenSource() {
         <a
           href={"https://www.gatsbyjs.com/"}
           target={"_blank"}
-          className={"neu"}
+          className={"neu2"}
           style={{
             fontSize: "1.3em",
             flexGrow: "6",
@@ -59,7 +59,7 @@ export default function OpenSource() {
         <a
           href={"https://www.cgal.org/"}
           target={"_blank"}
-          className={"neu"}
+          className={"neu2"}
           style={{
             fontSize: "1.3em",
             flexGrow: "5",
@@ -74,7 +74,7 @@ export default function OpenSource() {
         <a
           href={"https://deno.land/"}
           target={"_blank"}
-          className={"neu"}
+          className={"neu2"}
           style={{
             fontSize: "1.3em",
             flexGrow: "1",
