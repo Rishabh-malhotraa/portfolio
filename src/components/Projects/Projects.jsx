@@ -49,6 +49,14 @@ export default function Projects() {
           >
             <b>github</b>
           </a>
+
+          <a
+            href="https://dank-devs.netlify.app/"
+            style={{ textDecoration: "none", color:"red", marginLeft:"3em" }}
+            target={"_blank"}
+          >
+            <b> live</b>
+          </a>
         </div>
       </div>
 
