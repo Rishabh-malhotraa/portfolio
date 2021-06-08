@@ -55,7 +55,7 @@ export default function Projects() {
             style={{ textDecoration: "none", color:"red", marginLeft:"3em" }}
             target={"_blank"}
           >
-            <b> live</b>
+            <b> in progress</b>
           </a>
         </div>
       </div>
