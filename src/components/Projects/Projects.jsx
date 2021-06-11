@@ -55,7 +55,7 @@ export default function Projects() {
             style={{ textDecoration: "none", color:"red", marginLeft:"3em" }}
             target={"_blank"}
           >
-            <b> in progress</b>
+            <b> in-progress</b>
           </a>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function Projects() {
             results and information regarding the institute.
           </p>
           <a
-            href="https://github.com/ankiiitraj/doto-client"
+            href="https://github.com/iiitranchi"
             style={{ textDecoration: "none", color:"purple" }}
             target={"_blank"}
           >
@@ -132,7 +132,7 @@ export default function Projects() {
           </a>
 
           <a
-            href="https://www.doto.codes"
+            href="https://iiitranchi.ac.in/"
             style={{ textDecoration: "none", color:"red", marginLeft:"3em" }}
             target={"_blank"}
           >
